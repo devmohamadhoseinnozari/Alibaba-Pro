@@ -20,6 +20,8 @@ import { Main_suport_downComponent } from './components/main_suport_down/main_su
 import { Suport_quickComponent } from './components/suport_quick/suport_quick.component';
 import { Suport_tour_guideComponent } from './components/suport_tour_guide/suport_tour_guide.component';
 import { SafariComponent } from './page/safari/safari.component';
+import { RegisterComponent } from './components/Register/Register.component';
+import { Register__subComponent } from './page/register__sub/register__sub.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +41,8 @@ import { SafariComponent } from './page/safari/safari.component';
     Suport_quickComponent,
     Suport_tour_guideComponent,
     SafariComponent,
+    RegisterComponent,
+    Register__subComponent,
   ],
   imports: [
     BrowserModule,
