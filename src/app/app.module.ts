@@ -22,6 +22,7 @@ import { Suport_tour_guideComponent } from './components/suport_tour_guide/supor
 import { SafariComponent } from './page/safari/safari.component';
 import { RegisterComponent } from './components/Register/Register.component';
 import { Register__subComponent } from './page/register__sub/register__sub.component';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +50,7 @@ import { Register__subComponent } from './page/register__sub/register__sub.compo
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
